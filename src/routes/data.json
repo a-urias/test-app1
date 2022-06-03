@@ -1,0 +1,146 @@
+[
+    {
+        "id": "1",
+        "nombre": "Forest Jellyfish",
+        "autor": "Mochipanko",
+        "precio": "10.00",
+        "tipo": "Print",
+        "img": "/Prints/Print 1.png"
+    },
+
+    {
+        "id": "2",
+        "nombre": "Sky Switch Case",
+        "autor": "Underthelight",
+        "precio": "18.00",
+        "tipo": "Accesorio",
+        "img": "/Accesorio/Accesorio 3.png"
+    },
+
+    {
+        "id": "3",
+        "nombre": "Sailor Moon Hoodie",
+        "autor": "Starfire",
+        "precio": "25.00",
+        "tipo": "Ropa",
+        "img": "/Ropa/Ropa 1.png"
+    },
+
+    {
+        "id": "4",
+        "nombre": "Bunny Enamel Pin",
+        "autor": "Starfire",
+        "precio": "12.00",
+        "tipo": "Accesorio",
+        "img": "/Accesorio/Accesorio 4.png"
+    },
+
+    {
+        "id": "5",
+        "nombre": "Kit Cap Enamel Pin",
+        "autor": "Starfire",
+        "precio": "12.00",
+        "tipo": "Accesorio",
+        "img": "/Accesorio/Accesorio 6.png"
+    },
+
+    {
+        "id": "6",
+        "nombre": "Ying Yang Sticker",
+        "autor": "Mochipanko",
+        "precio": "5.00",
+        "tipo": "Print",
+        "img": "/Prints/Print 3.png"
+    },
+
+    {
+        "id": "7",
+        "nombre": "Koi Enamel Ping",
+        "autor": "Starfire",
+        "precio": "15.00",
+        "tipo": "Accesorio",
+        "img": "/Accesorio/Accesorio 5.png"
+    },
+
+    {
+        "id": "8",
+        "nombre": "Forest Jellyfish pt.2",
+        "autor": "Mochipanko",
+        "precio": "15.00",
+        "tipo": "Print",
+        "img": "/Prints/Print 1.png"
+    },
+
+    {
+        "id": "9",
+        "nombre": "Mermaid Sticker Sheet",
+        "autor": "Underthelight",
+        "precio": "15.00",
+        "tipo": "Print",
+        "img": "/Prints/Print 6.png"
+    },
+
+    {
+        "id": "10",
+        "nombre": "Howl and Calcifer",
+        "autor": "Underthelight",
+        "precio": "15.00",
+        "tipo": "Print",
+        "img": "/Prints/Print 5.png"
+    },
+
+    {
+        "id": "11",
+        "nombre": "Arstic Pencil HB",
+        "autor": "Office Depot",
+        "precio": "3.00",
+        "tipo": "Accesorio",
+        "img": "/Accesorio/Accesorio 2.png"
+    },
+
+    {
+        "id": "12",
+        "nombre": "Sea Hoodie",
+        "autor": "Mochipanko",
+        "precio": "30.00",
+        "tipo": "Ropa",
+        "img": "/Ropa/Ropa 2.png"
+    },
+
+    {
+        "id": "13",
+        "nombre": "Plants Print",
+        "autor": "Mochipanko",
+        "precio": "15.00",
+        "tipo": "Print",
+        "img": "/Prints/Print 7.png"
+    },
+
+    {
+        "id": "14",
+        "nombre": "Lavander Hoodie",
+        "autor": "Underthelight",
+        "precio": "40.00",
+        "tipo": "Ropa",
+        "img": "/Ropa/Ropa 3.png"
+    },
+
+    {
+        "id": "15",
+        "nombre": "Pink Ocean Purse",
+        "autor": "Underthelight",
+        "precio": "25.00",
+        "tipo": "Accesorio",
+        "img": "/Accesorio/Accesorio 7.png"
+    },
+
+    {
+        "id": "16",
+        "nombre": "Sailor Moon Print",
+        "autor": "Starfire",
+        "precio": "15.00",
+        "tipo": "Print",
+        "img": "/Prints/Print 4.png"
+    }
+
+]

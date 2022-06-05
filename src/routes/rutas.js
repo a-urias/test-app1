@@ -1,3 +1,4 @@
+const { json } = require('express');
 const { Router } = require('express');
 const res = require('express/lib/response');
 const router = Router();
@@ -31,53 +32,39 @@ router.get('/:id', (req,res) => {
           console.log(tipo.img);
       }
   });
+
   console.log(productos[id].nombre);
   console.log(productos[id].autor);
   console.log(productos[id].precio);
   console.log(productos[id].tipo);
   console.log(productos[id].img);
- 
- 
- 
   console.log(id);
 
 });
 
+/* ****BOTON DE FILTRO :( ****
 
-/*router.post('/', (req,res) => {
-    const {nombre, autor, precio, tipo, img} = req.body;
-    //verificacion
-    if(nombre && autor&& precio&& tipo&& img){
-        const id = productos.length +1;
-        const nuevoProductos = {...req.body,id};
-        productos.push(nuevoProductos);
-         // console.log(nuevoDataloca);
+router.get('/categoria/:tipo', (req, res) => {
 
-        //res.send(dataloca);
-        res.status(200).json(productos);
-    } else {
-        res.status(500).json({error:'no data'});
-       // res.send("Err 32: No Data");
-    }
-    
+    found = [];
 
-    res.send("ok");
+    const {tipo} = req.params;
+    productos.forEach(prod => {
+        if(prod.tipo == tipo)
+        {
+            console.log(prod.nombre);
+            console.log(prod.autor);
+            console.log(prod.precio);
+            console.log(prod.tipo);
+            console.log(prod.img);
+            //found = found + prod;
+            //found = found + ", " + prod.nombre;
+            found = found + prod.nombre;
+        }
+    });
 
-});
+         res.json(found);
 
-
-/* router.get('/empresa/fecha', (req,res) =>{
-    const data = {
-        "name": "Andrea U",
-        "id": "1234"
-
-        };
-    res.json(data);
- });*/
-
- /*router.post('/',(req,res) => {
-     console.log(req.body);
-     res.send("ok");
- })*/
+}); */
 
  module.exports = router;

@@ -14,6 +14,7 @@ app.use(cors());
 
 //rutas
 app.use('/api/productos',require('./routes/rutas'));
+app.use('/api/productos/categoria',require('./routes/rutas'));
 
 
 //Empezando el servidor
